@@ -1,0 +1,22 @@
+.titulo{
+    margin-top: 4rem;
+    font-size: 2rem;
+    color: var(--azul);
+}
+
+.titulo--apresentacao{
+    font-size: 3rem;
+    color: var(--azul);
+}
+
+.titulo--cinza{
+    font-size: 2rem;
+    color: var(--cinza);
+    margin-bottom: .7rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .titulo{
+        margin-left: 1.5rem;
+    }
+}

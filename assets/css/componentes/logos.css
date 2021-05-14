@@ -1,0 +1,18 @@
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logos__imagem{
+    margin: 1rem 1rem 0 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .logos{
+        margin-left: 1.5rem;
+    }
+
+}

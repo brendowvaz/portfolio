@@ -1,0 +1,7 @@
+@import url(variaveis.css);
+@import url(reset.css);
+
+body{
+    background-color: var(--cinza);
+    font-family: 'Josefin Sans', sans-serif;
+}

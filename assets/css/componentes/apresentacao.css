@@ -1,0 +1,12 @@
+.apresentacao{
+    width: 90%;
+    margin: 3rem auto 0 auto;
+    text-align: center;
+}
+
+.apresentacao__texto{
+    color: #333131d8;
+    width: 80%;
+    font-size: 1.5rem;
+    margin: .5rem auto 0 auto;
+}

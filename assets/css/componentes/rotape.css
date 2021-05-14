@@ -1,0 +1,43 @@
+.rotape {
+    background-image: url(../../img/footer.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    padding-bottom: 50px;
+    background-color: var(--azul);
+    color: var(--cinza);
+    line-height: 2.3rem;
+    font-size: 1.2rem;
+}
+
+.rotape__informacoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 230px;
+    width: 80%;
+    margin: 50px auto 0 auto;
+    justify-items: center;
+    align-items: end;
+}
+
+.rotape__dev{
+    text-align: center;
+}
+
+.rotape__item{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 840px) {
+
+    .rotape__informacoes{
+        display: block;
+        padding-top: 10rem;
+        width: 100%;
+    }
+
+    .rotape__contato{
+        margin-left: 1.5rem;
+        margin-top: 3.5rem;
+    }
+
+}

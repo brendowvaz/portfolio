@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brendow Vaz - Portifólio</title>
+    <link rel="shortcut icon" href="assets/img/icone.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/base/base.css">
+    <link rel="stylesheet" href="assets/css/componentes/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/componentes/apresentacao.css">
+    <link rel="stylesheet" href="assets/css/componentes/banner.css">
+    <link rel="stylesheet" href="assets/css/componentes/portifolio.css">
+    <link rel="stylesheet" href="assets/css/componentes/titulo.css">
+    <link rel="stylesheet" href="assets/css/componentes/logos.css">
+    <link rel="stylesheet" href="assets/css/componentes/rotape.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <button class="cabecalho__menu--mobile"></button>
+        <nav>
+            <ul class="cabecalho__menu">
+                <li class="cabecalho__menu__item"><a href="#apresentacao">Apresentação</a></li>
+                <li class="cabecalho__menu__item"><a href="#projetos">Projetos</a></li>
+                <li class="cabecalho__menu__item"><a href="#clientes">Clientes</a></li>
+                <li class="cabecalho__menu__item"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="conteudo">
+        <section class="apresentacao" id="apresentacao">
+            <h1 class="titulo--apresentacao"> Olá, eu sou o Brendow Vaz, desenvolvedor font-end.</h1>
+            <p class="apresentacao__texto">Possuo formações em web design, assebilidade na web, HTML, CSS, JavaScript, TypeScript, jQuery e React.</p>
+        </section>
+        <section class="banner">
+            <h2 class="banner__titulo">Crio sites Totalmente Responsivos</h2>
+            <p class="banner__subtitulo">Adaptados para qualquer tamanho de tela</p>
+                <img class="banner__imagem" src="assets/img/site-tek.png" alt="Imagem do Site da Tek Telecom">
+                <img class="banner__imagem" src="assets/img/site-kadosh.png" alt="Imagem do Site do Lava Jato Kadosh">
+        </section>
+        <div class="portifolio">
+            <section id="projetos">
+                <h2 class="titulo">Projetos Open Source:</h2>
+                <div class="logos">
+                    <a href="https://brendowvaz.github.io/simple-carousel/">
+                        <img class="logos__imagem" src="assets/img/simplecarousel.png" alt="Logo Simple Carousel">
+                    </a>
+
+                    <img class="logos__imagem" src="assets/img/inocentfeed.png" alt="Logo InocentFeed">
+                </div>
+            </section>
+            <section id="clientes">
+                <h2 class="titulo">São Clientes:</h2>
+                <div class="logos">
+                    <a href="https://tektelecom.com.br" target="_blank">
+                        <img class="logos__imagem" src="assets/img/tektelecom.png" alt="Logo Tek Telecom">
+                    </a>
+
+                    <a href="http://www.kadoshlavajato.com.br/" target="_blank">
+                        <img class="logos__imagem" src="assets/img/kadosh.png" alt="Logo Kadosh">
+                    </a>
+                    
+                    <img class="logos__imagem" src="assets/img/bigburger.png" alt="Logo Big Burger">
+                    <img class="logos__imagem" src="assets/img/goiasmangueiras.png" alt="Logo Goias Mangueiras">
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="rotape">
+        <div class="rotape__informacoes">
+            <section class="rotape__dev">
+                <img src="assets/img/foto.png" alt="Foto Dev Brendow Vaz">
+                <h1 class="titulo--cinza">Brendow Vaz</h1>
+                <span>Dev. Front-end</span>
+            </section>
+            <address class="rotape__contato" id="contato">
+                <h2 class="titulo--cinza">Contato</h2>
+                <ul>
+                    <li><strong class="rotape__item">Celular:</strong>
+                        <a href="tel:+5534997074970"> (34) 9 9707-4970</a></li>
+                    <li><strong class="rotape__item">Whatsapp:</strong>
+                        <a href="https://wa.me/5534997074970" target="_blank"> (34) 9 9707-4970</a></li>
+                    <li><strong class="rotape__item">E-mail:</strong>
+                        <a href="mailto:brendowvaz@hotmail.com"> brendowvaz@hotmail.com</a></li>
+                    <li><strong class="rotape__item">Endereço:</strong> Uberlândia/MG</li>
+                    <li><strong class="rotape__item">Github:</strong>
+                        <a href="https://github.com/brendowvaz" target="_blank"> brendowvaz</a></li>
+                    <li><strong class="rotape__item">LinkedIn:</strong> brendowvaz</li>
+                </ul>
+            </address>
+        </div>
+    </footer>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/menuMobile.js"></script>
+    <script src="assets/js/carousel.js"></script>
+</body>
+</html>
